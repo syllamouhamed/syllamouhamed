@@ -31,7 +31,7 @@ app.post("/",function(req,res){
     const url = "https://us21.api.mailchimp.com/3.0/lists/6b62095ea6"
     const option = {
         method : "POST",
-        auth: "Mouhamad:43c270559ae9b06bf375656cf2afd641-us21"
+        auth: "Mouhamad:26c8b488d345c3300fe37d1c9874ab06-us21"
     }
 
     const request = https.request(url,option,function(response){
@@ -60,7 +60,7 @@ app.listen(process.env.PORT || 3000,function(){
     console.log("server is running on port 3000...");
 })
 
-// API key   43c270559ae9b06bf375656cf2afd641-us21
+// API key   26c8b488d345c3300fe37d1c9874ab06-us21
     // console.log(fName, lName, email) ;
 
 // unique ID   6b62095ea6
